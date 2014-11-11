@@ -1,0 +1,12 @@
+-------XGenAnalytics Sentiment Analysis-------
+
+Sentiment Analysis of Unstructured Text using Naive Bayes Classifier. 
+Lexicon Dictionary provided here is just a sample. Please add your own dictionary and scores in the file data/lex_dict.csv 
+before running the function.
+
+##"Use code with caution - No Warranty or Guarantee is provided as mentioned in the License"##
+
+Usage:
+xgen_sentiment(unstructured_text)
+
+Eg: xgen_sentiment("destiny devotee !")
