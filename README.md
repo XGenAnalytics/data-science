@@ -1,4 +1,4 @@
 big-data-science
 ================
 
-Repository for Machine Learning Algorithms
+Repository for BIG Data Machine Learning Algorithms
