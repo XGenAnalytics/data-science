@@ -5,6 +5,10 @@ Lexicon Dictionary provided here is just a sample. Please add your own dictionar
 
 ##"Use code with caution - No Warranty or Guarantee is provided as mentioned in the License"##
 
+Dependencies:
+R>2
+libraries: tm, plyr, Rstem
+
 Usage:
 xgen_sentiment(unstructured_text)
 
