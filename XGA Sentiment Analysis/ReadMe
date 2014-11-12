@@ -10,6 +10,6 @@ R>2
 libraries: tm, plyr, Rstem
 
 Usage:
-xgen_sentiment(unstructured_text)
+xga_sentiment(unstructured_text)
 
-Eg: xgen_sentiment("destiny devotee !")
+Eg: xga_sentiment("destiny devotee !")
