@@ -16,15 +16,15 @@ xga_sentiment<-function(unstructured_text) {
 			if (match > 0) {
 				sentiment <- as.character(lex_dict[match,][[2]])
 				individual_score <- (lex_dict[match,][[3]])
-				tot_count <- counts[[sentiment]]
+				tot_count <- lex_count[[sentiment]]
 				score <- abs(log(individual_score*1.0/tot_count))
 				scores[[sentiment]] <- scores[[sentiment]]+score
 			}		
 		}
 			for (k in names(scores)) 
 				{
-				naive_score <- abs(log(counts[[k]]/counts[["total"]]))
-				scores[[key]] <- scores[[key]]+naive_score
+				naive_score <- abs(log(lex_count[[k]]/lex_count[["total"]]))
+				scores[[k]] <- scores[[k]]+naive_score
 				} 
         final_sent <- names(scores)[which.max(unlist(scores))]
 		docs <- rbind(docs,c(scores$positive,scores$negative,final_sent))
