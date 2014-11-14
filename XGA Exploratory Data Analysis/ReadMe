@@ -1,0 +1,17 @@
+XGenAnalytics Exploratory Data Analysis
+
+Python Library Toolkit to perform exploratory data analysis
+
+Features:
+Auto detection of rows and columns
+Exploratory Analysis with one click
+
+##"Use code with caution - No Warranty or Guarantee is provided as mentioned in the License"##
+
+Dependencies:
+Python >= 2.7
+
+Usage:
+xga_eda(data)
+
+Eg: xga_sentiment("/data/test.csv")
