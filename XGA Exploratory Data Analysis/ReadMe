@@ -14,4 +14,4 @@ Python >= 2.7
 Usage:
 xga_eda(data)
 
-Eg: xga_sentiment("/data/test.csv")
+Eg: xga_eda("/data/test.csv")
