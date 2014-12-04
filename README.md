@@ -1,4 +1,4 @@
 data-science
 ================
 
-Repository for Data Science Algorithms
+Repository for Machine Learning Algorithms
